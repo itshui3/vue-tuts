@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Parcel Sandbox</title>
+	<meta charset="UTF-8" />
+</head>
+
+<body>
+	<div id="app">
+
+        <div>
+            <button v-on:click='addSockToCart'>Add Sock To Cart</button>
+            <p>Socks Left: {{ products.socks.quantity }}</p>
+            <p>Cart Qty: {{ cart.length }}</p>
+            <p v-if='socksInStock'>In Stock</p>
+            <p v-else>Out of Stock</p>
+        </div>
+    </div>
+
+	<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+	<script src="main.js">
+	</script>
+</body>
+
+</html>

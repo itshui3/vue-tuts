@@ -1,0 +1,22 @@
+[0] - The Vue Instance
+
+Exercise:
+Add a description to data object - or any string
+Use an expression to display the description
+
+[1] - Attribute Binding
+
+Exercise:
+v-bind can bind attribute to expression
+
+[2] - Conditional Rendering
+
+Notes: 
+use v-if / v-else directives - applies element to dom
+v-show - applies ddisplay: none;, more performant
+
+Exercise:
+Render text in-stock or out-of-stock depending on quantity of things
+
+Questions:
+Should complex objects be immutably changed? 
